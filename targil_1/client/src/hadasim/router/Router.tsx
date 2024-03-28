@@ -23,7 +23,7 @@ export const router = createBrowserRouter([
         {
           path:PATHS.signInUser,
           index: true,
-          element: <SignInUser />
+          element:<GuestGuard><SignInUser /></GuestGuard>
 
         },
         {
