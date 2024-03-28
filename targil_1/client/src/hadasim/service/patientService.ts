@@ -14,7 +14,8 @@ export const getPatients = async ()=>
 }
 export const getPatientById = async (id:string): Promise<Blob> =>
 {
-        const response =await axios.get(`/patient/:image/${id}`,{responseType: 'blob'})
+    debugger
+        const response =await axios.get(`/patient/image/${id}`,{responseType: 'blob'})
         const patient = response.data;
         debugger
         return patient;

@@ -9,8 +9,8 @@ import verifyToken from '../middelware/verifyToken.js';
 router.post('/', upload.single('image') ,patients.addPatient)
 
 router.put('/',verifyToken,patients.updatePatient)
-// router.get('/:id',patients.getPatientById)
+router.get('/:id',patients.getPatientById)
 router.get('/',verifyToken,patients.getPatients)
 router.delete('/:id',verifyToken,patients.deletePatient)
-router.get('/:id',verifyToken,patients.getImageById)
+router.get('/:image/:id',verifyToken,patients.getImageById)
 export default router;

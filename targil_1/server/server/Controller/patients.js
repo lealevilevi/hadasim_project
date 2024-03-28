@@ -1,7 +1,7 @@
 export {
 
     addPatient,
-    // getPatientById,
+    getPatientById,
     updatePatient,
     getPatients,
     deletePatient,
@@ -115,6 +115,18 @@ async function getImageById(req, res) {
     catch (error) {
         console.error(error);
     }
+}
+async function getPatientById(req, res) {
+    try{
+        console.log("I am in function getPatientId");
+        console.log(req.params.id);
+        const patient = await patientModel.findOne({id:req.params.id});
+        res.status(200).send(patient);
+        }
+        catch(error){
+          console.log(error);
+          res.status(500).send(error)
+        }
 }
 
 

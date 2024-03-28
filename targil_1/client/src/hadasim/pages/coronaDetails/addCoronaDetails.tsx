@@ -24,8 +24,10 @@ const schema = yup.object().shape({
     })
   ).max(4, 'Vaccination dates cannot exceed 4 entries'),
   date_receiving_positive_result: yup.date().required('תאריך קבלת התוצאה החיובית הוא שדה חובה'),
-  date__of_recovery: yup.date().required('תאריך השחרור הוא שדה חובה'),
-});
+  date__of_recovery: yup.date().required('תאריך השחרור הוא שדה חובה')
+  .when('date_receiving_positive_result', (date_receiving_positive_result, schema) => {
+    return schema.min(date_receiving_positive_result, 'תאריך השחרור חייב להיות אחרי תאריך קבלת התוצאה החיובית');
+  }),});
 // סוג הנתונים
 export default function VaccinationForm() {
   const { register, handleSubmit, reset, control, formState: { errors } } = useForm({

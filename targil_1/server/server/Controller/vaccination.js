@@ -29,9 +29,6 @@ async function getVaccinationByPatientId(req, res) {
         console.log(req.params.id);
         const dom = await vaccinationModel.findOne({Ptientid:req.params.id});
         console.log(dom)
-        // let imagePath=dom[0].image;
-        // const basedir=path.resolve();
-        // const filePath = path.join(basedir,imagePath);
         res.send(dom);
         }
         catch(error){
