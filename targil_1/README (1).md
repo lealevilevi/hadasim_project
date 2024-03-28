@@ -17,20 +17,20 @@ Emphasizing reliability, ease of use and accurate data, this system is essential
 **Screen-Shots**
 patients:
 
-1. patient details :
+1. **patient details** :
  -  ![Alt text](https://github.com/lealevilevi/hadasim_project/blob/master/patient_details.png)
- -  list patient
+ -  **list patient**
  ![Alt text](https://github.com/lealevilevi/hadasim_project/blob/master/personal_details_2.png)
-2. add  personal patient details
+2. **add  personal patient details**
 -  ![Alt text](https://github.com/lealevilevi/hadasim_project/blob/master/add_personal_details.png)
-3.  Add corona details
+3.  **Add corona details**
 -  ![Alt text](https://github.com/lealevilevi/hadasim_project/blob/master/add_corona_details.png)
-4. Statistics
+4. **Statistics**
 -  ![Alt text](https://github.com/lealevilevi/hadasim_project/blob/master/statistic_details1.png)
 -  ![Alt text](https://github.com/lealevilevi/hadasim_project/blob/master/statistic_setails2.png)
-5. log-in user
+5. **log-in user**
 -  ![Alt text](-  ![Alt text](https://github.com/lealevilevi/hadasim_project/blob/master/statistic_setails2.png)
-6. sign-in user
+6. **sign-in user**
 -  ![Alt text](https://github.com/lealevilevi/hadasim_project/blob/master/statistic_setails2.png)
 
 ## Features
@@ -50,7 +50,7 @@ git clone https://github.com/lealevilevi/hadasim_project.git.
 4. Start the application using `npm start`.
 
 ## Technologies Used
-- Backend:node js.
+- Backend:Node js.
 - Frontend: React, Chart.js, mui
 - Database: mongodb compass
 
