@@ -9,6 +9,7 @@ export {
 import { createDiffieHellmanGroup } from "crypto";
 import vaccinationModel from '../models/vaccinationModel.js';
 import axios from "axios";
+import patientModel from "../models/patientModel.js";
 async function getVaccinations(req, res) {
     try {
         let data =await vaccinationModel.find({});
@@ -47,10 +48,11 @@ async function addVaccination(req, res) {
         const existingVaccination = await vaccinationModel.findOne({ Ptientid: req.body.Ptientid });
         console.log(req.body.Ptientid)
         console.log(existingVaccination);
-
-        if (existingVaccination) {
-            console.log('vaccination already exists');
-            res.status(409).send('vaccination already exists');
+        const existingPatient = await patientModel.findOne({ id: req.body.Ptientid });
+        console.log(existingPatient)
+        if (existingVaccination&&!existingPatient) {
+            console.log('vaccination already exists|patient not found');
+            res.status(409).send('vaccination already exists|patient not found');
             return;
         }
         
