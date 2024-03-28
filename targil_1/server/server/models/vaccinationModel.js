@@ -33,7 +33,7 @@ const vaccinationSchema=new mongoose.Schema({
 },
 { versionKey: false });
 function Limit(val) {
-    return val.length < 4;
+    return val.length <=4;
 }
 
 const vaccinationModel=mongoose.model("vaccination",vaccinationSchema);
