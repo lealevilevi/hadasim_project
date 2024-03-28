@@ -1,0 +1,14 @@
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\bin\Debug\net6.0\Rectangle_project_Hadasim.exe
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\bin\Debug\net6.0\Rectangle_project_Hadasim.deps.json
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\bin\Debug\net6.0\Rectangle_project_Hadasim.runtimeconfig.json
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\bin\Debug\net6.0\Rectangle_project_Hadasim.dll
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\bin\Debug\net6.0\Rectangle_project_Hadasim.pdb
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\obj\Debug\net6.0\Rectangle_project_Hadasim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\obj\Debug\net6.0\Rectangle_project_Hadasim.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\obj\Debug\net6.0\Rectangle_project_Hadasim.AssemblyInfo.cs
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\obj\Debug\net6.0\Rectangle_project_Hadasim.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\obj\Debug\net6.0\Rectangle_project_Hadasim.dll
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\obj\Debug\net6.0\refint\Rectangle_project_Hadasim.dll
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\obj\Debug\net6.0\Rectangle_project_Hadasim.pdb
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\obj\Debug\net6.0\Rectangle_project_Hadasim.genruntimeconfig.cache
+C:\Users\User\Downloads\Rectangle_project_Hadasim\Rectangle_project_Hadasim\obj\Debug\net6.0\ref\Rectangle_project_Hadasim.dll
