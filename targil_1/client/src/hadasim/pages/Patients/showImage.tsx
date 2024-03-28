@@ -19,7 +19,7 @@ const Picture: React.FC<PictureProps> = (props:{ id:string }) => {
           const imageUrl = URL.createObjectURL(imageBlob); // יצירת URL לתמונה
           setPicture(imageUrl); // עדכון המשתנה המקומי של התמונה
       } catch (error:any) {
-        console.error('Error fetching picture:', error.response.data);
+        console.error('Error fetching picture:', error?.response?.data);
       }
     }
     };

@@ -50,7 +50,7 @@ app.post("/login", async (req, res) => {
         res.status(400).send("All input is required");
         return;
       }
-      // Validate if user exist in our databases-leaders or students
+      // Validate if user exist in our databases
       const userr = await userModel.findOne({ id,password });
       if(userr==null){
         res.status(404).send('not found, you have to sign in');
